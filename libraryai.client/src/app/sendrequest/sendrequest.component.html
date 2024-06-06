@@ -1,0 +1,6 @@
+<form #f="ngForm" (ngSubmit)="FinishRequest(f)" class="container bg-primary m-5 p-5 d-flex flex-column" ngNativeValidate>
+    <p *ngIf="!requestsent" class="alert alert-danger">Please select count of printing times...</p>
+    <input *ngIf="!requestsent" required type="number" name="countofprint" min="1" max="10" value="1" ngModel>
+    <button *ngIf="!requestsent" class="btn btn-success" type="submit">Send Request</button>
+    <p *ngIf="requestsent" class="alert alert-success">The Request has been sent!, please wait for approval..</p>
+</form>

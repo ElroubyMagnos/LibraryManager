@@ -1,0 +1,14 @@
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\bin\Debug\net8.0\LibraryCore.deps.json
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\bin\Debug\net8.0\LibraryCore.runtimeconfig.json
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\bin\Debug\net8.0\LibraryCore.dll
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\bin\Debug\net8.0\LibraryCore.pdb
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\obj\Debug\net8.0\LibraryCore.csproj.AssemblyReference.cache
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\obj\Debug\net8.0\LibraryCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\obj\Debug\net8.0\LibraryCore.AssemblyInfoInputs.cache
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\obj\Debug\net8.0\LibraryCore.AssemblyInfo.cs
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\obj\Debug\net8.0\LibraryCore.csproj.CoreCompileInputs.cache
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\obj\Debug\net8.0\LibraryCore.dll
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\obj\Debug\net8.0\refint\LibraryCore.dll
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\obj\Debug\net8.0\LibraryCore.pdb
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\obj\Debug\net8.0\LibraryCore.genruntimeconfig.cache
+D:\Windows Helper\Abdullah\Desktop\LibraryAI\LibraryCore\obj\Debug\net8.0\ref\LibraryCore.dll

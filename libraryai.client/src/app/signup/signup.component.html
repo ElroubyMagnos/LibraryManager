@@ -1,0 +1,17 @@
+<section>
+    <div *ngIf="ErrorMsg" [class]="'alert alert-' + this.MsgType">
+        {{ErrorMsg}}
+    </div>
+    
+    <form style="margin: 20px auto;" class="w-50 d-flex flex-column gap-2" #f="ngForm" (ngSubmit)="SignUp(f)" ngNativeValidate>
+        <input placeholder="Name" class="form-control" required type="text" name="Name" id="" ngModel>
+        <input placeholder="Phone" class="form-control" required type="text" name="Phone" id="" ngModel>
+        <input placeholder="Password" class="form-control" required type="password" name="Password" id="" ngModel>
+        <input placeholder="Confirm Password" class="form-control"  type="password" name="ConfirmPassword" id="" ngModel>
+
+        <app-spinner [Size]="50" *ngIf="ShowSpinner"></app-spinner>
+
+        <button *ngIf="!ShowSpinner" type="submit" class="btn btn-primary m-1">Sign Up</button>
+        <button *ngIf="!ShowSpinner" (click)="f.reset();" type="button" class="btn btn-danger m-1">Clear</button>
+    </form>
+</section>

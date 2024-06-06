@@ -1,0 +1,9 @@
+<section class="bg-primary p-5 w-50 container mb-5 row all">
+    <div class="d-flex gap-2 flex-column">
+        <input hidden #fileupload (change)="FileNameShow(fileupload)" type="file">
+        <button (click)="fileupload.click();" class="btn btn-danger">Select File</button>
+        {{FileName}}
+        <app-spinner class="text-center" *ngIf="ShowSpinner" [Size]="50"></app-spinner>
+        <button *ngIf="!ShowSpinner" (click)="Upload(fileupload);" class="btn btn-success m-1">Upload and Send</button>
+    </div>
+</section>

@@ -1,0 +1,11 @@
+<li class="nav-item dropdown">
+    <a (click)="ShowDropDown(dropdownmenu);" class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      {{this.NameOFSignedIn.length > 0 ? this.NameOFSignedIn : 'Account'}}
+    </a>
+    <div #dropdownmenu class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a *ngIf="linker.SignedIn" [routerLink]="['/req']" routerLinkActive="active" class="dropdown-item">My Requests</a>
+      <a *ngIf="!linker.SignedIn" [routerLink]="['/signup']" routerLinkActive="active" class="dropdown-item">Sign Up</a>
+      <a *ngIf="!linker.SignedIn" [routerLink]="['/signin']" routerLinkActive="active" class="dropdown-item">Sign In</a>
+      <a *ngIf="linker.SignedIn" (click)="SignOut();" class="dropdown-item">Sign Out</a>
+    </div>
+</li>

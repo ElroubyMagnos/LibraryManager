@@ -1,0 +1,32 @@
+footer {
+  margin: 0 auto;
+  background-color: #3572EF;
+  font-weight: bolder;
+}
+footer h1 {
+  color: whitesmoke;
+}
+footer p {
+  color: whitesmoke;
+}
+footer .icons {
+  font-size: 50px;
+  gap: 20px;
+}
+footer .icons a {
+  color: white;
+}
+footer form {
+  margin: 25px;
+}
+footer form input,
+footer form textarea,
+footer form button {
+  border: 1px solid gray;
+  resize: none;
+  width: 60%;
+  margin: 5px auto;
+}
+footer form textarea {
+  height: 100px;
+}

@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg navbar-light p-3 mainbar">
+    <a class="navbar-brand" href="#"><img width="75" height="75" src="assets/lib.png" alt=""></a>
+    <button (click)="ShowNav(navbar);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div #navbar class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-light fw-bolder" href="#">Home</a>
+        </li>
+        <app-dropdown-menu></app-dropdown-menu>
+      </ul>
+    </div>
+</nav>
+
+<div class="bread d-flex justify-content-center m-3" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li [class]="'breadcrumb-item ' + (subactive == 1 ? 'active' : '')" aria-current="page">{{sub1}}</li>
+    <li [class]="'breadcrumb-item ' + (subactive == 2 ? 'active' : '')" aria-current="page">{{sub2}}</li>
+    <li [class]="'breadcrumb-item ' + (subactive == 3 ? 'active' : '')" aria-current="page">{{sub3}}</li>
+  </ol>
+</div>

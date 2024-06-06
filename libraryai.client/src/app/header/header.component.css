@@ -1,0 +1,9 @@
+.mainbar {
+  background-color: #3572EF;
+}
+.mainbar .searchbtn {
+  background-color: #3ABEF9;
+}
+.breadcrumb .active {
+  color: #3572EF;
+}
